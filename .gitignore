@@ -1,4 +1,13 @@
-*.DS_Store
-*.dat
-*.csv
+# MATLAB
+*.asv
+*.p
 *.m~
+
+# Simulation artefacts
+*.dat
+*.mat
+*.csv
+*.txt
+
+# OS X
+*.DS_Store
