@@ -1,7 +1,7 @@
 ## THM2D-U
 
 <p align="center">
-  <img align="center" src="docs/logo.png" alt="THM2D-U logo" />
+  <img align="center" src="docs/logo.png" width="738" alt="THM2D-U logo" />
 </p>
 
 The code in this repository calculates stresses and displacements in porous media induced by the fluid pressure and thermal expansion. It implements a finite volume solver to the problem of linear thermoporoelasticity. At the moment, fluid flow and heat conduction are uncoupled from elastic deformations, i.e. volume changes of the solid phase do not influence fluid pressure and rock properties such as porosity and permeability. Mass and energy balance of the fluid phase are computed by the [MUFITS reservoir simulator](http://www.mufits.imec.msu.ru/). This code consumes output files from MUFITS and solves for stresses and displacements of the rocks using provided pore pressure and temperature distributions.
